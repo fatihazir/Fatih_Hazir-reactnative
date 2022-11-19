@@ -104,9 +104,6 @@ const ProductsFlatlist = () => {
         );
     };
 
-    // if (products && currentContext.selectedCategory && currentContext.selectedCategory !== "All") {
-    //     setFilteredProducts(products.filter(p => p.category == currentContext.selectedCategory))
-    // }
     return (
         <View style={styles.container}>
             <ErrorModal
